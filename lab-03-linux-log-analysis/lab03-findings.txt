@@ -1,0 +1,31 @@
+================================================
+   SOC LAB 03 — SSH Brute Force Detector
+   Author: Ibitayo Alasi
+   Date: Fri Jul 24 05:38:31 WAT 2026
+================================================
+
+[*] Failed login attempts by username:
+     12 invalid
+      6 root
+      2 rev3vs8
+
+[*] Failed login attempts by IP address:
+      6 fakeuser
+      6 admin
+      6 ::1
+      2 192.168.56.1
+
+[*] Invalid usernames attempted:
+      2 fakeuser
+      2 admin
+
+[*] Total failed attempts:
+20
+
+[*] Accounts with 5+ failed attempts (potential brute force):
+ALERT: invalid has 12 failed attempts
+ALERT: root has 6 failed attempts
+
+================================================
+   Scan Complete
+================================================
