@@ -19,8 +19,8 @@ This repository documents my hands-on SOC analyst training through 20 practical 
 |---|---|---|---|
 | 01 | Home SOC Lab Environment Setup | ✅ Complete | Week 1 |
 | 02 | Wireshark Network Traffic Analysis | ✅ Complete | Week 1 |
-| 03 | Linux Log Analysis + Syslog Parsing | 🔄 In Progress | Week 2 |
-| 04 | Windows Event Log Investigation | ⏳ Pending | Week 2 |
+| 03 | Linux Log Analysis + Syslog Parsing | ✅ Complete | Week 2 |
+| 04 | Windows Event Log Investigation | 🔄 In Progress | Week 2 |
 | 05 | Splunk Free SIEM Setup | ⏳ Pending | Week 3 |
 | 06 | Nmap Scanning + Alerting | ⏳ Pending | Week 3 |
 | 07 | Snort IDS + Custom Rule Writing | ⏳ Pending | Week 4 |
