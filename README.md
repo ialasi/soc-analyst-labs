@@ -44,9 +44,9 @@ This repository documents my hands-on SOC analyst training through 20 practical 
 
 | Category | Tools |
 |---|---|
-| Virtualization | VirtualBox 7.2, Kali Linux, Windows 10 |
+| Virtualization | VirtualBox 7.2, Kali Linux, Windows 10, Docker, Kali Container |
 | Network Analysis | Wireshark, tcpdump, Nmap |
-| SIEM | Splunk Free |
+| SIEM | Splunk Enterprise 10.4.1 |
 | IDS/IPS | Snort |
 | Threat Intel | MISP, OpenCTI, AlienVault OTX |
 | OSINT | Shodan, URLScan, WHOIS |
@@ -54,6 +54,16 @@ This repository documents my hands-on SOC analyst training through 20 practical 
 | EDR | Wazuh, Sysmon |
 | Cloud | AWS CloudTrail, Athena |
 | SOAR | Shuffle |
+
+---
+
+## Hardware
+
+| Device | Specs |
+|---|---|
+| MacBook Pro M4 Pro | Apple Silicon, macOS |
+| HP Laptop | Ubuntu 24.04 LTS, 8GB RAM |
+| Office Desktop | Ubuntu 22.04 LTS |
 
 ---
 
