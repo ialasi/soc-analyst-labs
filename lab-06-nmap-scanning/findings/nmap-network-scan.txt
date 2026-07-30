@@ -1,0 +1,20 @@
+# Nmap 7.99 scan initiated Wed Jul 29 11:21:58 2026 as: /usr/lib/nmap/nmap -sS -oN /findings/nmap-network-scan.txt 172.17.0.0/24
+Nmap scan report for 172.17.0.1
+Host is up (0.0000010s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT    STATE SERVICE
+111/tcp open  rpcbind
+MAC Address: 5A:BE:7F:45:57:DB (Unknown)
+
+Nmap scan report for 172.17.0.3
+Host is up (0.0000010s latency).
+All 1000 scanned ports on 172.17.0.3 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 42:6C:88:DD:6F:9A (Unknown)
+
+Nmap scan report for 8887bf904e25 (172.17.0.2)
+Host is up.
+All 1000 scanned ports on 8887bf904e25 (172.17.0.2) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+# Nmap done at Wed Jul 29 11:25:22 2026 -- 256 IP addresses (3 hosts up) scanned in 204.46 seconds

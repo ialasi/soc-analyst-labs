@@ -1,0 +1,9 @@
+# Nmap 7.99 scan initiated Wed Jul 29 11:21:51 2026 as: /usr/lib/nmap/nmap -sS -oN /findings/nmap-syn-scan.txt 172.17.0.1
+Nmap scan report for 172.17.0.1
+Host is up (0.0000010s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT    STATE SERVICE
+111/tcp open  rpcbind
+MAC Address: 5A:BE:7F:45:57:DB (Unknown)
+
+# Nmap done at Wed Jul 29 11:21:51 2026 -- 1 IP address (1 host up) scanned in 0.61 seconds
