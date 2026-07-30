@@ -22,8 +22,8 @@ This repository documents my hands-on SOC analyst training through 20 practical 
 | 03 | Linux Log Analysis + Syslog Parsing | ✅ Complete | Week 2 |
 | 04 | Windows Event Log Investigation | ✅ Complete | Week 2 |
 | 05 | Splunk Free SIEM Setup | ✅ Complete | Week 3 |
-| 06 | Nmap Scanning + Alerting | 🔄 In Progress | Week 3 |
-| 07 | Snort IDS + Custom Rule Writing | ⏳ Pending | Week 4 |
+| 06 | Nmap Scanning + Alerting | ✅ Complete | Week 3 |
+| 07 | Snort IDS + Custom Rule Writing | 🔄 In Progress | Week 4 |
 | 08 | Phishing Email Analysis | ⏳ Pending | Week 5 |
 | 09 | Malware Sandbox Analysis | ⏳ Pending | Week 5 |
 | 10 | SIEM Brute Force Detection | ⏳ Pending | Week 6 |
