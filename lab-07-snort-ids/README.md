@@ -38,15 +38,7 @@ Started Snort in IDS mode using the configured rule set.
 
 ---
 
-## Step 5 – Verify Snort is Running
-
-Confirmed that Snort initialized successfully and is monitoring network traffic.
-
-![Snort Running](screenshots/05-snort-running.png)
-
----
-
-## Step 6 – Fix Rule Errors
+## Step 5 – Fix Rule Errors
 
 Resolved syntax/configuration issues in the custom rules.
 
@@ -54,7 +46,7 @@ Resolved syntax/configuration issues in the custom rules.
 
 ---
 
-## Step 7 – Capture Traffic with tcpdump
+## Step 6 – Capture Traffic with tcpdump
 
 Captured packets for later analysis.
 
@@ -62,7 +54,7 @@ Captured packets for later analysis.
 
 ---
 
-## Step 8 – Generate ICMP Traffic
+## Step 7 – Generate ICMP Traffic
 
 Triggered ICMP traffic and verified that Snort detected it.
 
@@ -74,7 +66,7 @@ Additional ICMP alert output.
 
 ---
 
-## Step 9 – Perform an Nmap SYN Scan
+## Step 8 – Perform an Nmap SYN Scan
 
 Executed an Nmap SYN scan against the target.
 
@@ -90,7 +82,7 @@ Confirmed the ports detected during the scan.
 
 ---
 
-## Step 10 – Review Alert Statistics
+## Step 9 – Review Alert Statistics
 
 Reviewed Snort's alert statistics after the scans.
 
