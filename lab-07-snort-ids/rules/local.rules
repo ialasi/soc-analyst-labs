@@ -1,3 +1,0 @@
-alert icmp any any -> any any (msg:"ICMP Ping Detected"; sid:1000001; rev:1;)
-alert tcp any any -> any any (msg:"TCP SYN Scan Detected"; flags:S; sid:1000002; rev:1;)
-alert tcp any any -> any any (msg:"Nmap SYN Scan - Win1024"; flags:S; window:1024; sid:1000003; rev:1;)
