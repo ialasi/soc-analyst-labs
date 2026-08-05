@@ -125,8 +125,56 @@ Snort successfully detected the generated traffic and produced alerts based on t
 
 **Evidence**
 
-*Screenshot: Snort alerts*
 
+## Evidence
+
+### 1. Snort Installed
+![Snort Installed](screenshots/01-snort-installed.png)
+
+### 2. Custom Rules Created
+![Custom Rules Created](screenshots/02-rules-created.png)
+
+### 3. Snort Configuration
+![Snort Configuration](screenshots/03-snort-config.png)
+
+### 4. Snort Starting
+![Snort Starting](screenshots/04-snort-starting.png)
+
+### 5. Snort Running
+![Snort Running](screenshots/05-snort-running.png)
+
+### 6. Rules Fixed
+![Rules Fixed](screenshots/06-snort-rules-fixed.png)
+
+### 7. tcpdump Packet Capture
+![tcpdump Capture](screenshots/07-tcpdump-capture.png)
+
+### 8. Snort PCAP Analysis
+![Snort PCAP Analysis](screenshots/08-snort-pcap-analysis.png)
+
+### 9. ICMP Alerts
+![ICMP Alerts](screenshots/09-icmp-alerts.png)
+
+### 10. Additional ICMP Alerts
+![ICMP Alerts 2](screenshots/10-icmp-alerts-2.png)
+
+### 11. Nmap SYN Alerts
+![Nmap SYN Alerts](screenshots/11-nmap-syn-alerts.png)
+
+### 12. Nmap Alert Details
+![Nmap Alert Details](screenshots/12-nmap-alerts-detail.png)
+
+### 13. Nmap Ports Detected
+![Nmap Ports Detected](screenshots/13-nmap-ports-detected.png)
+
+### 14. Alert Statistics
+![Alert Statistics](screenshots/14-alert-stats.png)
+
+### 15. Alerts from 192.x.x.x Host
+![192 Alerts](screenshots/15-192-alerts.png)
+
+### 16. Snort Summary
+![Snort Summary](screenshots/16-snort-summary.png)
 ---
 
 ## Findings
