@@ -1,0 +1,76 @@
+==============================================
+PHISHING INVESTIGATION — IOC REPORT
+Author: Ibitayo Alasi
+Date: 7 August 2026
+==============================================
+
+INCIDENT SUMMARY:
+Phishing email impersonating PayPal detected.
+Attacker used typosquatted domain and TOR exit node.
+17/91 VirusTotal vendors confirmed IP as malicious.
+
+==============================================
+INDICATORS OF COMPROMISE (IOCs)
+==============================================
+
+IP ADDRESSES:
+- 185.220.101.45 [MALICIOUS]
+  Detections: 17/91 VirusTotal vendors
+  ASN: AS60729 (Stiftung Erneuerbare Freiheit)
+  Country: Germany (DE)
+  Tags: tor, phishing, malware
+  Community Score: -20
+
+DOMAINS:
+- paypa1.com [MALICIOUS] — Typosquatted PayPal domain (1 not l)
+- fakemailer.net [MALICIOUS] — Attacker mail server
+- suspicious-server.ru [MALICIOUS] — Russian originating server
+
+EMAIL INDICATORS:
+- From: security@paypa1.com
+- Return-Path: bounce@fakemailer.net
+- Subject: URGENT: Your PayPal account has been suspended
+- X-Originating-IP: 185.220.101.45
+- Message-ID: 20240115092338.123456@fakemailer.net
+- Date: Mon, 15 Jan 2024 09:23:38 -0800
+
+AUTHENTICATION FAILURES:
+- SPF: FAIL — domain not authorized to send from 185.220.101.45
+- DKIM: FAIL — no DKIM signature found
+- DMARC: FAIL — policy violation (p=reject)
+
+ATTACK TECHNIQUES:
+- Typosquatting (paypa1.com vs paypal.com)
+- TOR anonymization to hide attacker location
+- Domain spoofing (display name "PayPal Security")
+- Social engineering (URGENT subject line)
+- Return-Path mismatch (fakemailer.net vs paypa1.com)
+
+==============================================
+MITRE ATT&CK MAPPING
+==============================================
+- T1566.001 — Phishing: Spearphishing Attachment
+- T1566.002 — Phishing: Spearphishing Link
+- T1036.005 — Masquerading: Match Legitimate Name
+- T1090.003 — Proxy: Multi-hop Proxy (TOR)
+
+==============================================
+VERDICT
+==============================================
+CONFIRMED PHISHING — HIGH CONFIDENCE
+- Triple authentication failure (SPF/DKIM/DMARC)
+- Originating IP on 17 threat intelligence blacklists
+- TOR exit node used for anonymization
+- Typosquatted sender domain
+- Urgent social engineering language
+
+==============================================
+RECOMMENDED ACTIONS
+==============================================
+1. Block IP: 185.220.101.45 at firewall
+2. Block domain: paypa1.com at email gateway
+3. Block domain: fakemailer.net at email gateway
+4. Alert all users about PayPal phishing campaign
+5. Report domain to PayPal abuse: spoof@paypal.com
+6. Submit IOCs to threat intel platform (MISP/OpenCTI)
+7. Check email logs for other recipients of same campaign
