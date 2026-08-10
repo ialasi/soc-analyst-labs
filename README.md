@@ -24,8 +24,8 @@ This repository documents my hands-on SOC analyst training through 20 practical 
 | 05 | Splunk Free SIEM Setup | ✅ Complete | Week 3 |
 | 06 | Nmap Scanning + Alerting | ✅ Complete | Week 3 |
 | 07 | Snort IDS + Custom Rules Writing | ✅ Complete | Week 4 |
-| 08 | Phishing Email Analysis | 🔄 In Progress | Week 5 |
-| 09 | Malware Sandbox Analysis | ⏳ Pending | Week 5 |
+| 08 | Phishing Email Analysis | ✅ Complete | Week 5 |
+| 09 | Malware Sandbox Analysis | 🔄 In Progress | Week 5 |
 | 10 | SIEM Brute Force Detection | ⏳ Pending | Week 6 |
 | 11 | Full IR — Ransomware Scenario | ⏳ Pending | Week 7 |
 | 12 | Threat Intel — OpenCTI + MISP | ⏳ Pending | Week 8 |
