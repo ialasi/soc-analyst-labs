@@ -83,4 +83,4 @@ This repository documents my hands-on SOC analyst training through 20 practical 
 
 ---
 
-*Ibitayo Alasi — IT Support Specialist transitioning to SOC Analyst*
+*Ibitayo Alasi — IT Support Specialist transitioning to SOC Analyst
