@@ -1,0 +1,7 @@
+Indicator,Type,Value,Description,Confidence
+invoice_document.docm,File,invoice_document.docm,Macro-enabled document used in suspected initial access,High
+updater.exe,File,updater.exe,Suspicious executable downloaded and executed by PowerShell,High
+malicious-update.example,Domain,malicious-update.example,Suspected payload delivery domain,High
+.locked,File Extension,.locked,Extension observed on affected files,High
+powershell.exe,Process,powershell.exe,Used to download and execute the payload,High
+winword.exe,Process,winword.exe,Parent process associated with PowerShell execution,Medium

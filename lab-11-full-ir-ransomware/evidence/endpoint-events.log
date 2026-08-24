@@ -1,0 +1,9 @@
+2026-08-24 09:10:11 USER_LOGIN user=analyst
+2026-08-24 09:11:42 PROCESS_START name=winword.exe pid=4120
+2026-08-24 09:12:03 PROCESS_START name=updater.exe pid=4876
+2026-08-24 09:12:09 PROCESS_START name=powershell.exe pid=4912
+2026-08-24 09:12:15 POWERSHELL suspicious_command_detected pid=4912
+2026-08-24 09:13:21 FILE_ACTIVITY mass_rename_detected extension=.locked
+2026-08-24 09:14:02 SECURITY_ALERT ransomware_behavior_detected
+2026-08-24 09:14:45 SYSTEM_EVENT shadow_copy_deletion_detected
+2026-08-24 09:15:17 NETWORK_EVENT workstation_isolated

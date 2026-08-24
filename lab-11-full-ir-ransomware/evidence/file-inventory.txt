@@ -1,0 +1,13 @@
+Affected Host: FINANCE-PC01
+User: finance.user
+
+Documents/
+├── Financial_Report.xlsx.locked
+├── Employee_List.docx.locked
+├── Network_Diagram.pdf.locked
+├── Security_Policy.docx.locked
+└── Incident_Notes.txt.locked
+
+Downloads/
+├── updater.exe
+└── invoice_document.docm
