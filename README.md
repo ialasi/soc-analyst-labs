@@ -27,8 +27,8 @@ This repository documents my hands-on SOC analyst training through 20 practical 
 | 08 | Phishing Email Analysis | ✅ Complete | Week 5 |
 | 09 | Malware Sandbox Analysis | ✅ Complete | Week 5 |
 | 10 | SIEM Brute Force Detection | ✅ Complete | Week 6 |
-| 11 | Full IR — Ransomware Scenario | 🔄 In Progress | Week 7 |
-| 12 | Threat Intel — OpenCTI + MISP | ⏳ Pending | Week 8 |
+| 11 | Full incident response simulation — ransomware scenario | ✅ Complete | Week 7 |
+| 12 | Threat intelligence with OpenCTI + MISP | 🔄 In Progress | Week 8, Day 1–4 |
 | 13 | OSINT Threat Actor Attribution | ⏳ Pending | Week 8 |
 | 14 | Vulnerability Scanning — OpenVAS | ⏳ Pending | Week 9 |
 | 15 | Digital Forensics — Autopsy | ⏳ Pending | Week 10 |
